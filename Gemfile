@@ -13,6 +13,7 @@ gem 'jbuilder'
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'haml-rails'
+gem 'redis'
 
 group :development do
   gem 'listen'
