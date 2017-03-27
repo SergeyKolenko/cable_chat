@@ -1,6 +1,9 @@
 #messages {
-  max-height: 450px;
-  overflow-y: auto;
+  hr{
+    border-color: peachpuff;
+  }
+  max-height: 400px;
+  overflow-x: hidden;
   .avatar {
     margin: 0.5rem;
   }
