@@ -1,0 +1,12 @@
+.card
+  .card-block
+    .row
+      .col-sm-1
+        = gravatar_for message.user
+      .col-sm-11
+        %p.card-text
+          %span.text-muted
+            = message.user.name
+            at
+            = message.timestamp
+          = message.body
